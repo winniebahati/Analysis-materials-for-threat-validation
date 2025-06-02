@@ -1,18 +1,18 @@
-# The role of Data Flow Diagrams in validating identified security threats- Replication package
-This repository contains the data used to execute a control experiement to measure the role of a data flow diagram in validating security threats. The experiement was conducted in two universities, in the Netherlands and China.
+# Less is more: Usefulness of data flow diagrams and large language models for security threat validation
+This repository contains the data used to execute a control experiement to measure the role of a data flow diagram and large language models in validating security threats. We first conducted a pilot with 41 MSc students and a think aloud with three practitioners. The outcomes of the think-aloud were analysed for potential issues and concerns that needed to be addressed before the final data collection campaign. The final data collection was done via Upword, a crowdsourcing platform, where 68 expert practitioners were hired to participate in the experiement.
 
 ### How to Cite us
 To be updated....
 The scientific article describing design, execution, and main results of this study is available here.
 If this study is helping your research, consider to cite it is as follows, thanks!
 
-@article{mbaka2025validating,
+@article{xyz.....,
 
-  title={Assessing the usefulness of Data Flow Diagrams for validating security threats},
+  title={Less is more: Usefulness of data flow diagrams and large language models for security threat validation},
   
-  author={Mbaka, Winnie Bahati and Zhang, Xinran and Wang, Yunduo and Li, Tong and Massacci, Fabio and Tuma, katja},
+  author={Mbaka, Winnie Bahati and Tuma, katja},
   
-  journal={Computers & Security},
+  journal={Empirical Software Engineering},
   
   volume={},
   
@@ -29,7 +29,13 @@ First we prepared all textual materials. This included choosing relevant but com
 From the scenarios, we compiled 10 threats, each containing a unique thretad ID, threat description, assumption, affected components, and an associated STRIDE threat type. 5 of the threats were real and 5 were fabricated.
 Additional reading materials, selcted book chapters on STRIDE were also made availabe.
 
-To measure the role of the data flow diagram in validating threats, we proposed comparing it to a process diagram, a sequence diagram. To this end, we defined two treatment group. Intervention received both the DFD and sequence diagram while control group received only a sequence diagram.
+To measure the role of the data flow diagram and large language models in validating threats, we make use of a balanced orthogonal design which is also known as Taguchi Design. Each participant
+is randomly assigned to one of the four groups:
+
+1) LLM + DFD (A) receives the scenario descriptions with an accompanying data flow diagram instance and tasked with assessing the applicability of threats using an LLM
+(2) noLLM + DFD (B) receives the scenario descriptions with an accompanying data flow diagram instance and tasked with self-assessing the applicability of threats
+(3) LLM + noDFD (C) receives the scenario description without an accompanying data flow diagram instance and tasked with assessing the applicability of threats using an LLM
+(4) noLLM + noDFD (D) receives the scenario description without an accompanying data flow diagram instance and tasked with self-assessing the applicability of threats
 
 ### The Task
 From the list of threats, the participants were required to identify/choose the actual threats.
@@ -61,11 +67,11 @@ This is the root directory of the repository. The directory is structured as fol
 
     template-replication-package
      .
-     |--- data/                            Contains sample data obtained from participants reports. All identifiable information has been removed.
+     |--- data/                            Contains pre-screenign questions for recruiting experts from Upwork, survey questionnaire, transcription codes for the analysis of the think-aloud interviews
      |
      |--- documentation/                   Contains the scenario description for each experiement, the list of threats adopted from each scenario and a document containing the justification for the validity of each threat alongside the information cues and technical knowledge necessary for validating the threats.
      |
-     |--- src/                             Contains the python notebook with a step-by-step analysis of the data obtained from participants. We did not provide the actual data used in analysis, however, the data format follows the same columns contained in the excel files uploaded in the "Data folder" in this repository. 
+     |--- src/                             Contains the python notebook with a step-by-step analysis of the data obtained from participants. We did not provide the actual data used in analysis. 
     
     
      
