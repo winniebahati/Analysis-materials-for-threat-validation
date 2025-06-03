@@ -49,7 +49,7 @@ To aide in the replication, we have made available the following materials;
 
 
 ### How to get started
-We only provide teh anonymised participants ressponses to the questionnaires upon request.
+We only provide the anonymised participants ressponses to the questionnaires upon request.
 The accompanying Python script contains the code used to address our research questions, with all required packages already specified.
 
 # Web Scraper Tool
@@ -58,10 +58,10 @@ This project includes a Python script for scraping chatGPT conversation between 
 
 ## Project Contents
 
-- `scraper.py`: The main Python script for web scraping.
+- `scraping code.py`: The main Python script for scraping.
 - `requirements.txt`: Lists all dependencies required to run the script.
 
-## 🛠️ Installation
+## Installation
 
 Before running the script, make sure you have **Python 3.7+** installed on your system.
 
