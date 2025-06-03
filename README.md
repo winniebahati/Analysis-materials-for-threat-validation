@@ -27,7 +27,7 @@ If this study is helping your research, consider to cite it is as follows, thank
 Several steps were followed in it's execution. 
 First we prepared all textual materials. This included choosing relevant but comparable scenarios. To this end, we presented a kubernetes and a GitHub scenario for the first and confirming experiments. To further make the student's background knowledge comparable , for the subjects relevant to this study (security and the domains of the selected scenarios), we developed training videos.
 From the scenarios, we compiled 10 threats, each containing a unique thretad ID, threat description, assumption, affected components, and an associated STRIDE threat type. 5 of the threats were real and 5 were fabricated.
-Additional reading materials, selcted book chapters on STRIDE were also made availabe.
+Additional reading materials, on Data Flow Diagrams were also made availabe.
 
 To measure the role of the data flow diagram and large language models in validating threats, we make use of a balanced orthogonal design which is also known as Taguchi Design. Each participant
 is randomly assigned to one of the four groups:
