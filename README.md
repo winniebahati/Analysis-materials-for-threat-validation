@@ -33,9 +33,9 @@ To measure the role of the data flow diagram and large language models in valida
 is randomly assigned to one of the four groups:
 
 1) LLM + DFD (A) receives the scenario descriptions with an accompanying data flow diagram instance and tasked with assessing the applicability of threats using an LLM
-(2) noLLM + DFD (B) receives the scenario descriptions with an accompanying data flow diagram instance and tasked with self-assessing the applicability of threats
-(3) LLM + noDFD (C) receives the scenario description without an accompanying data flow diagram instance and tasked with assessing the applicability of threats using an LLM
-(4) noLLM + noDFD (D) receives the scenario description without an accompanying data flow diagram instance and tasked with self-assessing the applicability of threats
+2) noLLM + DFD (B) receives the scenario descriptions with an accompanying data flow diagram instance and tasked with self-assessing the applicability of threats
+3) LLM + noDFD (C) receives the scenario description without an accompanying data flow diagram instance and tasked with assessing the applicability of threats using an LLM
+4) noLLM + noDFD (D) receives the scenario description without an accompanying data flow diagram instance and tasked with self-assessing the applicability of threats
 
 ### The Task
 From the list of threats, the participants were required to identify/choose the actual threats.
