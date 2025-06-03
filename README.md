@@ -58,7 +58,7 @@ This project includes a Python script for scraping chatGPT conversation between 
 
 ## Project Contents
 
-- `scraping code.py`: The main Python script for scraping.
+- `scraper.py`: The main Python script for scraping.
 - `requirements.txt`: Lists all dependencies required to run the script.
 
 ## Installation
