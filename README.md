@@ -50,8 +50,30 @@ To aide in the replication, we have made available the following materials;
 
 ### How to get started
 We only provide teh anonymised participants ressponses to the questionnaires upon request.
-The accompanying Python script contains the code used to address our research questions, with all required packages already pre-installed.
-For the script to
+The accompanying Python script contains the code used to address our research questions, with all required packages already specified.
+
+# Web Scraper Tool
+
+This project includes a Python script for scraping chatGPT conversation between the LLM and participants and a `requirements.txt` file specifying all necessary Python packages.
+
+## Project Contents
+
+- `scraper.py`: The main Python script for web scraping.
+- `requirements.txt`: Lists all dependencies required to run the script.
+
+## 🛠️ Installation
+
+Before running the script, make sure you have **Python 3.7+** installed on your system.
+
+1. Clone the repository or download the files
+
+2. Install the required packages:
+
+        pip install -r requirements.txt
+
+3. Run the scraping script using:
+   
+        python scraper.py
 
 
 
