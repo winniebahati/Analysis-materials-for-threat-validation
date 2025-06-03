@@ -57,11 +57,11 @@ This is the root directory of the repository. The directory is structured as fol
 
     template-replication-package
      .
-     |--- data/                            Contains pre-screening questions for recruiting experts from Upwork, survey questionnaire, transcription codes for the analysis of the think-aloud interviews
+     |--- data/                            Contains pre-screening questions for recruiting experts from Upwork and transcription codes for the analysis of the think-aloud interviews
      |
-     |--- documentation/                   Contains the scenario description for each experiement, the list of threats adopted from each scenario and a document containing the justification for the validity of each threat alongside the information cues and technical knowledge necessary for validating the threats.
+     |--- Materials/                       Contains the scenario description for each experiement, the list of threats adopted from each scenario and a document containing the justification for the validity of each threat alongside the information cues and technical knowledge necessary                                               for validating the threats.
      |
-     |--- src/                             Contains the python notebook with a step-by-step analysis of the data obtained from participants. We did not provide the actual data used in analysis. 
+     |--- src/                             Contains the python notebook with a step-by-step analysis of the data obtained from participants, the script used to scrape the chat conversations between participants and ChatGPT. We provide the actual data used in analysis upon request. 
     
     
      
