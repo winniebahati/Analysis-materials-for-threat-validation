@@ -48,6 +48,10 @@ To aide in the replication, we have made available the following materials;
 3. Python notebook
 
 
+### How to get started
+We only provide teh anonymised participants ressponses to the questionnaires upon request.
+The accompanying Python script contains the code used to address our research questions, with all required packages already pre-installed.
+For the script to
 
 
 
@@ -57,9 +61,9 @@ This is the root directory of the repository. The directory is structured as fol
 
     template-replication-package
      .
-     |--- data/                            Contains pre-screening questions for recruiting experts from Upwork and transcription codes for the analysis of the think-aloud interviews
+     |--- data/                            Contains pre-screening questions for recruiting experts from Upwork and 
      |
-     |--- Materials/                       Contains the scenario description for each experiement, the list of threats adopted from each scenario and a document containing the justification for the validity of each threat alongside the information cues and technical knowledge necessary                                               for validating the threats.
+     |--- Materials/                       Contains the scenario descriptions, the ground truth, information cues and knowledge required to validate each threat,         transcription codes for the analysis of the think-aloud interviews, the surveys for each tratment group, STride training and the pre-screening questionnaires.
      |
      |--- src/                             Contains the python notebook with a step-by-step analysis of the data obtained from participants, the script used to scrape the chat conversations between participants and ChatGPT. We provide the actual data used in analysis upon request. 
     
